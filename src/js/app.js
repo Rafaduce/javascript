@@ -58,4 +58,40 @@ var desigual = 4 != 3;
 var valorAChecar = 20;
 var esValido = (valorAChecar <= 20) || (valorAChecar >= 30)
     //  var esValido = (valorAChecar <= 20) && (valorAChecar >= 30)
-console.log("Es valido ? : ", esValido);
+    //  console.log("Es valido ? : ", esValido);
+
+// IF
+
+if (9 > 15 || 5 == 7) {
+    // ... codigo que se ejecuta si valorAChecar es true
+    console.log("Es verdadero 😛")
+} else if (10 > 6 && 0 != 0) {
+    // ... codigo que se ejecuta si valorAChecar es false
+    console.log("Es verdadero en el segundo intento 😛")
+} else {
+    console.log("Es falso 😦")
+}
+
+// LOOP WHILE
+var contador = 0;
+while (contador < 10) {
+    console.log("Hola 🤠", contador);
+    contador = contador + 1;
+}
+
+// LOOP DO WHITE
+var contador = -100;
+do {
+    contador = contador + 1;
+    if (contador < 0) {
+        contador = 0;
+        console.log("A ver si me veo");
+    }
+    console.log("Hola 🤠", contador);
+} while (contador < 10)
+
+// LOOP FOR
+console.log("Loop for")
+for (var i = 0; i < 10; i++) {
+    console.log("Hola 🤠", i);
+}
